@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>RENTAL COST CALCULATOR</title>
+
+</head>
+<body>
+    <main>
+    
+ <section id="left">
+    <h1><span>Calculate</span> rental cost for your car here</h1>
+    <select id="select">
+        <option value="select car type" hidden>select car type</option>
+        <option value="Economy"> Economy</option>
+        <option value="mid-size">mid-size</option>
+        <option value="Luxury">Luxury</option>
+    </select><br>
+
+    <input type="number" placeholder="rent duration(in days)" id="rentduration"><br>
+    <button onclick="calculaterent()">Calculate rent</button>
+    <button onclick="location.reload()">Refresh</button>
+
+    <p id="output"></p>
+ </section>       
+    <section id="right">
+        <img src="https://i.pinimg.com/564x/b5/9f/49/b59f49c38a9807cd73f0f8f95937c631.jpg" alt="">
+
+    </section>
+    </main>   
+</body>
+<script src="/aj.js"></script>
+</html>
